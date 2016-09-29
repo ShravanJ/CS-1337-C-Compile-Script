@@ -4,5 +4,5 @@
 # Just enter the name of the .cpp source as the first parameter and the output file as the second
 # For example, to compile the program 'MyProgram' we would run ./compile.sh MyProgram.cpp MyProgram
 # To run the program, just execute ./MyProgram
-g++ $1 -o $2 -std=c++11 -pedantic-errors
+g++ $1 -o $2 -Wall -fexceptions -g -pedantic-errors -std=c++11
 
